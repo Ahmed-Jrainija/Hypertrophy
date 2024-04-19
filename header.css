@@ -1,0 +1,207 @@
+@media (min-width : 1200px) {
+    .header {
+        height: 50px;
+        background-color: rgb(73, 73, 173);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        border-bottom-style: solid;
+        border-bottom-color: black;
+        border-bottom-width: 1px;
+        z-index: 1000;
+    }
+    
+    .right {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        flex: 1;
+        margin-right: 20px;
+    }
+    
+    .DB {
+        height: 40px;
+        animation-name: rotate;
+        animation-delay: 0.5s;
+        animation-fill-mode: forwards;
+        animation-duration: 1s;
+        cursor: pointer;
+    }
+    
+    @keyframes rotate {
+        to {transform: rotate(90deg);}
+    }
+    
+    .name {
+        font-size: 25px;
+        font-family: Syncopate;
+        margin-left: 5px;
+        color: white;
+        font-weight: bold;
+        padding-top: 3px;
+        cursor: pointer;
+        opacity: 0;
+        animation-name: color;
+        animation-fill-mode: forwards;
+        animation-duration: 1s;
+        animation-delay: 1.1s;
+    }
+
+    @keyframes color {
+        to {opacity: 1;}
+    }
+    
+    .center {
+        flex: 2;
+        display: flex;
+        align-items: center;
+        max-width: 500px;
+        margin-left: 20px;
+    }
+    
+    .bar {
+        height: 30px;
+        border-radius: 20px;
+        border-style: none;
+        font-family: arial;
+        padding-left: 20px;
+        font-size: 15px;
+        flex: 1;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .left {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        flex: 1;
+        margin-left: 20px;
+    }
+    
+    .bt1 {
+        padding-left: 15px;
+        padding-right: 15px;
+        border-style: none;
+        border-radius: 5px;
+        margin-left: 10px;
+        background-color: rgb(233, 233, 233);
+        font-family: roboto;
+        font-size: 15px;
+        cursor: pointer;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-weight: 400;
+        color: rgb(73, 73, 173);
+    }
+    
+    .bt1:hover {
+        background-color: rgb(216, 216, 216);
+    }
+    
+    .bt1:active {
+        background-color: rgb(201, 201, 201);
+    }
+}
+
+@media (max-width : 1200px) {
+    .header {
+        height: 50px;
+        background-color: rgb(73, 73, 173);
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        right: 0;
+        left: 0;
+        top: 0;
+        border-bottom-style: solid;
+        border-bottom-color: black;
+        border-bottom-width: 1px;
+        z-index: 1000;
+    }
+    
+    .right {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: end;
+        flex: 1;
+        margin-right: 20px;
+    }
+    
+    .DB {
+        height: 40px;
+        cursor: pointer;
+    }
+    
+    .name {
+        font-size: 25px;
+        font-family: Syncopate;
+        margin-left: 5px;
+        color: white;
+        font-weight: bold;
+        padding-top: 3px;
+        opacity: 0;
+    }
+    
+    .center {
+        flex: 2;
+        display: flex;
+        align-items: center;
+        max-width: 500px;
+        margin-left: 20px;
+    }
+    
+    .bar {
+        height: 30px;
+        border-radius: 20px;
+        border-style: none;
+        font-family: arial;
+        padding-left: 20px;
+        font-size: 15px;
+        flex: 1;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    
+    .left {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 50px;
+        margin-left: 20px;
+    }
+    
+    .bt1 {
+        padding-left: 15px;
+        padding-right: 15px;
+        border-style: none;
+        border-radius: 5px;
+        margin-left: 10px;
+        background-color: rgb(233, 233, 233);
+        font-family: roboto;
+        font-size: 15px;
+        cursor: pointer;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-weight: 400;
+        color: rgb(73, 73, 173);
+    }
+    
+    .bt1:hover {
+        background-color: rgb(216, 216, 216);
+    }
+    
+    .bt1:active {
+        background-color: rgb(201, 201, 201);
+    }
+}
+
